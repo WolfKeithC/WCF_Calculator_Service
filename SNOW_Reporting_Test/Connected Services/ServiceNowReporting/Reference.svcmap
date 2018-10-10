@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="25b76c1b-7914-426c-9afb-5a6e9437893e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="92538ca1-8e62-4c71-b20a-b98cfb883b73" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd3" />
+    <MetadataFile FileName="SNOWReportingLibrary.wsdl" MetadataType="Wsdl" ID="6e300dc2-7052-4a9f-9bc4-2f21256da24e" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="d125606d-e157-4996-8e59-4a7cb08ebc3f" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="57a8a4d4-ced0-4126-be02-c65458d71754" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="7e6319dc-d31d-44d3-9183-6f58ebe907d4" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd1" />
+    <MetadataFile FileName="item21.xsd" MetadataType="Schema" ID="f014fd7b-9bee-4fb9-bedd-1dba20f7ed97" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd4" />
+    <MetadataFile FileName="item22.xsd" MetadataType="Schema" ID="972b02ac-267a-4158-a9d1-74f6ce4afa21" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
