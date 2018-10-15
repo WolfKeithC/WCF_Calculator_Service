@@ -9,7 +9,7 @@ namespace SNOW_Reporting_Test
     {
         static void Main(string[] args)
         {
-            ServiceNowReporting.SNOWReportingLibraryClient snow = new ServiceNowReporting.SNOWReportingLibraryClient();
+            ServiceNowReporting.DisneyIntakeFormClient snow = new ServiceNowReporting.DisneyIntakeFormClient();
 
             string result = snow.GetStatus();
             var result01 = snow.GetApplicationList("SOS");

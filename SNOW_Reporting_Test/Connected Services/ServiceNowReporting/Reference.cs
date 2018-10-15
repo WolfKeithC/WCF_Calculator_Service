@@ -15,7 +15,7 @@ namespace SNOW_Reporting_Test.ServiceNowReporting {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ConfigurationItemViewModel", Namespace="http://schemas.datacontract.org/2004/07/DATG.SN.Common.SNOW")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ConfigurationItemViewModel", Namespace="http://support.media.disney.com/")]
     [System.SerializableAttribute()]
     public partial class ConfigurationItemViewModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -343,41 +343,169 @@ namespace SNOW_Reporting_Test.ServiceNowReporting {
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceNowReporting.ISNOWReportingLibrary")]
-    public interface ISNOWReportingLibrary {
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApplicationCount", Namespace="http://support.media.disney.com/")]
+    [System.SerializableAttribute()]
+    public partial class ApplicationCount : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISNOWReportingLibrary/GetStatus", ReplyAction="http://tempuri.org/ISNOWReportingLibrary/GetStatusResponse")]
-        string GetStatus();
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISNOWReportingLibrary/GetApplicationList", ReplyAction="http://tempuri.org/ISNOWReportingLibrary/GetApplicationListResponse")]
-        SNOW_Reporting_Test.ServiceNowReporting.ConfigurationItemViewModel[] GetApplicationList(string BusinessID);
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApplicationSysIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessId1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BusinessId2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EmailAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TicketNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TicketTimestampField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ApplicationSysId {
+            get {
+                return this.ApplicationSysIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApplicationSysIdField, value) != true)) {
+                    this.ApplicationSysIdField = value;
+                    this.RaisePropertyChanged("ApplicationSysId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessId1 {
+            get {
+                return this.BusinessId1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessId1Field, value) != true)) {
+                    this.BusinessId1Field = value;
+                    this.RaisePropertyChanged("BusinessId1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string BusinessId2 {
+            get {
+                return this.BusinessId2Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BusinessId2Field, value) != true)) {
+                    this.BusinessId2Field = value;
+                    this.RaisePropertyChanged("BusinessId2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string EmailAddress {
+            get {
+                return this.EmailAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EmailAddressField, value) != true)) {
+                    this.EmailAddressField = value;
+                    this.RaisePropertyChanged("EmailAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TicketNumber {
+            get {
+                return this.TicketNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TicketNumberField, value) != true)) {
+                    this.TicketNumberField = value;
+                    this.RaisePropertyChanged("TicketNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TicketTimestamp {
+            get {
+                return this.TicketTimestampField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TicketTimestampField, value) != true)) {
+                    this.TicketTimestampField = value;
+                    this.RaisePropertyChanged("TicketTimestamp");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ISNOWReportingLibraryChannel : SNOW_Reporting_Test.ServiceNowReporting.ISNOWReportingLibrary, System.ServiceModel.IClientChannel {
+    [System.ServiceModel.ServiceContractAttribute(Name="Disney.IntakeForm", Namespace="http://support.media.disney.com/", ConfigurationName="ServiceNowReporting.DisneyIntakeForm")]
+    public interface DisneyIntakeForm {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://support.media.disney.com/Disney.IntakeForm/GetStatus", ReplyAction="http://support.media.disney.com/Disney.IntakeForm/GetStatusResponse")]
+        string GetStatus();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://support.media.disney.com/Disney.IntakeForm/GetApplicationList", ReplyAction="http://support.media.disney.com/Disney.IntakeForm/GetApplicationListResponse")]
+        SNOW_Reporting_Test.ServiceNowReporting.ConfigurationItemViewModel[] GetApplicationList(string BusinessID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://support.media.disney.com/Disney.IntakeForm/GetTicketInfo", ReplyAction="http://support.media.disney.com/Disney.IntakeForm/GetTicketInfoResponse")]
+        SNOW_Reporting_Test.ServiceNowReporting.ApplicationCount GetTicketInfo(string TicketInfo);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface DisneyIntakeFormChannel : SNOW_Reporting_Test.ServiceNowReporting.DisneyIntakeForm, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SNOWReportingLibraryClient : System.ServiceModel.ClientBase<SNOW_Reporting_Test.ServiceNowReporting.ISNOWReportingLibrary>, SNOW_Reporting_Test.ServiceNowReporting.ISNOWReportingLibrary {
+    public partial class DisneyIntakeFormClient : System.ServiceModel.ClientBase<SNOW_Reporting_Test.ServiceNowReporting.DisneyIntakeForm>, SNOW_Reporting_Test.ServiceNowReporting.DisneyIntakeForm {
         
-        public SNOWReportingLibraryClient() {
+        public DisneyIntakeFormClient() {
         }
         
-        public SNOWReportingLibraryClient(string endpointConfigurationName) : 
+        public DisneyIntakeFormClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public SNOWReportingLibraryClient(string endpointConfigurationName, string remoteAddress) : 
+        public DisneyIntakeFormClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public SNOWReportingLibraryClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public DisneyIntakeFormClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public SNOWReportingLibraryClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public DisneyIntakeFormClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -387,6 +515,10 @@ namespace SNOW_Reporting_Test.ServiceNowReporting {
         
         public SNOW_Reporting_Test.ServiceNowReporting.ConfigurationItemViewModel[] GetApplicationList(string BusinessID) {
             return base.Channel.GetApplicationList(BusinessID);
+        }
+        
+        public SNOW_Reporting_Test.ServiceNowReporting.ApplicationCount GetTicketInfo(string TicketInfo) {
+            return base.Channel.GetTicketInfo(TicketInfo);
         }
     }
 }

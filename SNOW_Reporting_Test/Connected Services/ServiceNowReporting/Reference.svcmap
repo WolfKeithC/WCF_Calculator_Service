@@ -18,16 +18,16 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8733/SNOWReporting/service" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="92538ca1-8e62-4c71-b20a-b98cfb883b73" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd3" />
-    <MetadataFile FileName="SNOWReportingLibrary.wsdl" MetadataType="Wsdl" ID="6e300dc2-7052-4a9f-9bc4-2f21256da24e" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?wsdl" />
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="d125606d-e157-4996-8e59-4a7cb08ebc3f" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?disco" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="57a8a4d4-ced0-4126-be02-c65458d71754" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd0" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="7e6319dc-d31d-44d3-9183-6f58ebe907d4" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd1" />
-    <MetadataFile FileName="item21.xsd" MetadataType="Schema" ID="f014fd7b-9bee-4fb9-bedd-1dba20f7ed97" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd4" />
-    <MetadataFile FileName="item22.xsd" MetadataType="Schema" ID="972b02ac-267a-4158-a9d1-74f6ce4afa21" SourceId="1" SourceUrl="http://datgbr-papw173.swna.wdpr.disney.com:8733/DATG.SN.ReportingConnector/SNOWReportingConnector/?xsd=xsd2" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="38206c0d-0191-4adb-8203-7aa40db68784" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?xsd=xsd1" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="cde2e8e1-44fe-4f76-bc5b-2ed050d22317" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?xsd=xsd3" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="30cd4fdb-4011-4c71-a49f-809609c5ff21" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?xsd=xsd2" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="2bdf6a44-00f3-444c-a164-f25e5973d45f" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?wsdl=wsdl0" />
+    <MetadataFile FileName="SNOWReportingLibrary1.wsdl" MetadataType="Wsdl" ID="7a9e57ae-e7c2-4e3d-aa53-e3bd6591d768" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?wsdl" />
+    <MetadataFile FileName="service3.xsd" MetadataType="Schema" ID="ac7585cf-9d0b-4aee-b2f0-4ef147d0a428" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?xsd=xsd0" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="96ccfda7-dace-4316-aa3b-1a55eeb0da17" SourceId="1" SourceUrl="http://localhost:8733/SNOWReporting/service?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
